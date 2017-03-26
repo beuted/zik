@@ -1,0 +1,7 @@
+ul {
+    list-style-type: none;
+}
+
+.song-item {
+    border-bottom: 1px solid #c9c9d9;
+}

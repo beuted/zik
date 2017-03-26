@@ -1,0 +1,34 @@
+.song {
+    color: #72727d;
+    background-color: white;
+    margin: 0;
+}
+
+.song:hover {
+    background-color: #c9c9d9;
+    cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.name {
+    display: inline;
+}
+
+.name>.play-pause-icon {
+    margin-right: 15px;
+}
+
+.album {
+    display: inline;
+}
+
+.artist {
+    display: inline;
+}
+
+.download {
+    display: inline;
+}

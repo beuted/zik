@@ -1,0 +1,10 @@
+<a (click)="playOrPause()" class="song row" target="_blank">
+  <div class="name col-sm-5">
+    <i class="fa fa-play play-pause-icon" *ngIf="isPause" aria-hidden="true"></i>
+    <i class="fa fa-pause play-pause-icon" *ngIf="!isPause" aria-hidden="true"></i>
+    {{song.name}}
+  </div>
+  <div class="album col-sm-3">{{song.album}}</div>
+  <div class="artist col-sm-3">{{song.artist}}</div>
+  <div class="artist col-sm-1"><a href="api/download?id={{song.path}}"  target="_blank" class="download"><i class="fa fa-download" aria-hidden="true"></i></a></div>
+</a>
